@@ -40,7 +40,7 @@ public class Produtos {
 
     @Override
     public String toString() {
-        return "Cliente{" +
+        return "Produtos{" +
                 "id=" + id +
                 ", tipo='" + tipo + '\'' +
                 ", preco_produtos='" + preco_produtos + '\'' +
