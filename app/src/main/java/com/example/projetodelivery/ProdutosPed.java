@@ -28,4 +28,13 @@ public class ProdutosPed {
     public void setId_pedidos(int id_pedidos) {
         this.id_pedidos = id_pedidos;
     }
+
+    @Override
+    public String toString() {
+        return "ProdutosPed{" +
+                "id=" + id +
+                ", id_pedidos='" + id_pedidos + '\'' +
+                ", id_produtos='" + id_produtos + '\'' +
+                '}';
+    }
 }
