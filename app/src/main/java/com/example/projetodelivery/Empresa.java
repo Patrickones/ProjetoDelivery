@@ -73,6 +73,8 @@ public class Empresa {
                 ", telefone='" + telefone + '\'' +
                 ", cnpj='" + cnpj + '\'' +
                 ", endereco='" + endereco + '\'' +
+                ", id_pedidos='" + id_pedidos + '\'' +
+                ", id_clientes='" + id_clientes + '\'' +
                 '}';
     }
 }

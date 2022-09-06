@@ -4,7 +4,7 @@ public class Pedidos {
     private int id;
     private String statatusped;
     private String quantidade;
-    private int id_pedidos;
+    private int id_clientes;
 
     public int getId() {
         return id;
@@ -30,12 +30,12 @@ public class Pedidos {
         this.quantidade = quantidade;
     }
 
-    public int getId_pedidos() {
-        return id_pedidos;
+    public int getId_clientes() {
+        return id_clientes;
     }
 
-    public void setId_pedidos(int id_pedidos) {
-        this.id_pedidos = id_pedidos;
+    public void setId_clientes(int id_clientes) {
+        this.id_clientes = id_clientes;
     }
 
     @Override
@@ -44,6 +44,7 @@ public class Pedidos {
                 "id=" + id +
                 ", statusped='" + statatusped + '\'' +
                 ", quantidade='" + quantidade + '\'' +
+                ", id_clientes='" + id_clientes + '\'' +
                 '}';
     }
 }

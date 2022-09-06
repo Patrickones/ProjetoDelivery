@@ -20,7 +20,7 @@ public class PedidosDAO {
         ContentValues values = new ContentValues();
         values.put("statusped", model.getStatatusped());
         values.put("quantidade", model.getQuantidade());
-        values.put("id_pedidos",model.getId_pedidos());
+        values.put("id_clientes",model.getId_clientes());
 
         // Retorna o id do registro inserido
         return banco.insert("pedidos", null, values);
@@ -28,13 +28,13 @@ public class PedidosDAO {
 
     public ArrayList<Pedidos> listar() {
         ArrayList<Pedidos> lista = new ArrayList<>();
-        Cursor cursor = banco.query("pedidos", new String[]{"id", "statusped", "quantidade", "id_pedidos"}, null, null, null, null, null);
+        Cursor cursor = banco.query("pedidos", new String[]{"id", "statusped", "quantidade", "id_clientes"}, null, null, null, null, null);
         while (cursor.moveToNext()) {
             Pedidos model = new Pedidos();
             model.setId(cursor.getInt(0));
             model.setStatatusped(cursor.getString(1));
             model.setQuantidade(cursor.getString(2));
-            model.setId_pedidos(cursor.getInt(3));
+            model.setId_clientes(cursor.getInt(3));
 
             lista.add(model);
         }
@@ -44,12 +44,12 @@ public class PedidosDAO {
 
     public Pedidos ler(int id) {
         Pedidos model = new Pedidos();
-        Cursor cursor = banco.query("pedidos", new String[]{"id", "statusped", "quantidade", "id_pedidos"}, "id = ?", new String[]{String.valueOf(id)}, null, null, null);
+        Cursor cursor = banco.query("pedidos", new String[]{"id", "statusped", "quantidade", "id_cliente"}, "id = ?", new String[]{String.valueOf(id)}, null, null, null);
         while (cursor.moveToNext()) {
             model.setId(cursor.getInt(0));
             model.setStatatusped(cursor.getString(1));
             model.setQuantidade(cursor.getString(2));
-            model.setId_pedidos(cursor.getInt(3));
+            model.setId_clientes(cursor.getInt(3));
         }
         return model;
     }
@@ -58,7 +58,7 @@ public class PedidosDAO {
         ContentValues values = new ContentValues();
         values.put("statusped", model.getStatatusped());
         values.put("quantidade", model.getQuantidade());
-        values.put("id_pedidos",model.getId_pedidos());
+        values.put("id_clientes",model.getId_clientes());
 
         // Retorna o id do registro atualizado
         return banco.update("pedidos", values, "id = ?", new String[]{String.valueOf(model.getId())});

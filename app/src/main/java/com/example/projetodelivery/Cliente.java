@@ -63,6 +63,7 @@ public class Cliente {
                 ", cpf='" + cpf + '\'' +
                 ", telefone='" + telefone + '\'' +
                 ", endereco='" + endereco + '\'' +
+                ", id_pedidos='" + id_pedidos + '\'' +
                 '}';
     }
 }
