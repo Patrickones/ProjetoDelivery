@@ -2,4 +2,7 @@
     <string name="app_name">ProjetoDelivery</string>
     <string name="email">Email</string>
     <string name="senha">Senha</string>
+    <string name="promocoes">Promoções</string>
+    <string name="lanches">Lanches</string>
+    <string name="bebidas">Bebidas</string>
 </resources>
