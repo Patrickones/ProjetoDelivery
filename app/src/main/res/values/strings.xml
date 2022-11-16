@@ -5,4 +5,10 @@
     <string name="promocoes">Promoções</string>
     <string name="lanches">Lanches</string>
     <string name="bebidas">Bebidas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cachorrofrango">Cachorro quente de frango</string>
+    <string name="cachorrofranfotexto">Cachorro quente de frango delicioso de 40cm e muito sabor</string>
+    <string name="xfrango">X frango</string>
+    <string name="xfrangotext">X Frango delicioso e saboroso prensado</string>
 </resources>
