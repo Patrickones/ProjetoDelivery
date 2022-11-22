@@ -21,14 +21,14 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:id="@+id/cachorroFrango"
+                    android:id="@+id/cachorroFrangoPromo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/cachorrofrango"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/cachorroFrangoText"
+                    android:id="@+id/cachorroFrangoPromo2"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
@@ -37,11 +37,10 @@
             </androidx.cardview.widget.CardView>
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/cachorrofrangoImg"
                 android:layout_width="70dp"
                 android:layout_height="72dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/pasteldefrango" />
+                android:src="@drawable/chachorrofrango" />
 
         </LinearLayout>
 
@@ -55,14 +54,14 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:id="@+id/xFrango"
+                    android:id="@+id/xFrangoPromo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/xfrango"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/xFrangoText"
+                    android:id="@+id/xFrangoPromo2"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
