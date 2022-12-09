@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,128 +11,71 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
+                android:layout_width="110dp"
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:id="@+id/cachorroFrago"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/cachorroFrangoPromo"
+                    android:layout_width="150dp"
+                    android:layout_height="20dp"
                     android:text="@string/cachorrofrango"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/cachorroFrango2"
-                    android:layout_width="200dp"
+                    android:id="@+id/cachorroFrangoPromo2"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/cachorrofranfotexto" />
+
             </androidx.cardview.widget.CardView>
 
             <ImageView
-                android:id="@+id/imgCachorro"
-                android:layout_width="70dp"
+                android:id="@+id/cachorrofrangoImg"
+                android:layout_width="50dp"
                 android:layout_height="72dp"
                 android:src="@drawable/chachorrofrango" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
+                android:layout_width="110dp"
+                android:layout_height="wrap_content">
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/xFrangoPromo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/xfrango"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView4"
-                    android:layout_width="200dp"
+                    android:id="@+id/xFrangoPromo2"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/xfrangotext" />
+
             </androidx.cardview.widget.CardView>
 
             <ImageView
-                android:id="@+id/imgXfrango"
-                android:layout_width="70dp"
+                android:id="@+id/imgDogFrang"
+                android:layout_width="50dp"
                 android:layout_height="72dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/xfrango" />
+
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:id="@+id/cachorroBacon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/cachorrobacon"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/cachorroBacon2"
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:text="@string/cachorrobacontext" />
-            </androidx.cardview.widget.CardView>
-
-            <ImageView
-                android:id="@+id/imgCachorroBacon"
-                android:layout_width="70dp"
-                android:layout_height="72dp"
-                android:src="@drawable/cachorrobacon" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <TextView
-                    android:id="@+id/pasteldeFrango"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/pasteldefrango"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/pasteldeFrango2"
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:text="@string/pasteldefrangotext" />
-            </androidx.cardview.widget.CardView>
-
-            <ImageView
-                android:id="@+id/imgPastel"
-                android:layout_width="70dp"
-                android:layout_height="72dp"
-                android:src="@drawable/pasteldefrango" />
-        </LinearLayout>
     </LinearLayout>
 </FrameLayout>
